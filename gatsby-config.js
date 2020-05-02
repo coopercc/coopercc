@@ -1,5 +1,4 @@
 module.exports = {
-  prefixPaths: '/gatsby-portfolio',
   siteMetadata: {
     title: 'Cooper Cain',
     author: 'Cooper Cain',
