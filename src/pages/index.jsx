@@ -19,9 +19,8 @@ function HomeIndex() {
         <section id="one">
           <header className="major">
             <h2>
-              Hello! I&apos;m a Frontend Engineer
-              <br />
-              passionate about creating delightful user experiences.
+              Hello! I&apos;m Cooper Cain, a Frontend Engineer passionate about
+              creating delightful user experiences.
             </h2>
           </header>
           <p>
@@ -66,7 +65,7 @@ function HomeIndex() {
           </p>
           <div className="row">
             <div className="7u 12u$(small)">
-              <form method="post" action="#">
+              <form method="POST" action="https://formspree.io/xaypyyjd">
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
                     <input

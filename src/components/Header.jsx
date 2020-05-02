@@ -12,7 +12,7 @@ const Header = () => (
         , a Frontend Engineer
         <br />
         {' '}
-        currently working at GoDaddy.
+        currently working at GoDaddy
       </h1>
     </div>
     <Footer />
