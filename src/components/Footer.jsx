@@ -10,6 +10,11 @@ const Footer = () => (
           </a>
         </li>
         <li>
+          <a href="https://www.linkedin.com/in/cooper-cain/" className="icon fa-linkedin">
+            <span className="label">LinkedIn</span>
+          </a>
+        </li>
+        <li>
           <a href="mailto:cooper@coopercc.me" className="icon fa-envelope-o">
             <span className="label">Email</span>
           </a>
