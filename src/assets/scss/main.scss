@@ -1243,7 +1243,7 @@
 
 	@include breakpoint(medium) {
 
-		$size-header-pad: 4em;
+		$size-header-pad: 3em;
 
 		/* Basic */
 
@@ -1492,8 +1492,12 @@
 	}
 
 @media screen and (max-width: 480px) {
+	.\35 u,
+	.\35 u24,
 	.\36 u,
 	.\36 u24,
+	.\37 u,
+	.\37 u24,
 	.\38 u,
 	.\38 u24,
 	.\34 u,

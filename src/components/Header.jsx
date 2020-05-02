@@ -8,7 +8,7 @@ const Header = () => (
     <div className="inner">
       <img className="image avatar" src={avatar} alt="My Face" />
       <h1>
-        <strong>I&rsquo;m Cooper Cain</strong>
+        <strong>I&apos;m Cooper Cain</strong>
         , a Frontend Engineer
         <br />
         {' '}

@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Face from '../assets/images/avatar.jpg';
 import Layout from '../components/layout';
 
 function HomeIndex() {
@@ -11,27 +12,29 @@ function HomeIndex() {
       <Helmet>
         <title>{siteTitle}</title>
         <meta name="description" content={siteDescription} />
+        <link rel="shortcut icon" type="image/x-icon" href={Face} />
       </Helmet>
 
       <div id="main">
         <section id="one">
           <header className="major">
             <h2>
-              Ipsum lorem dolor aliquam ante commodo
+              Hello! I&apos;m a Frontend Engineer
               <br />
-              magna sed accumsan arcu neque.
+              passionate about creating delightful user experiences.
             </h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            With a background in Informatics (focusing in HCI) from the
+            University of Washington and working professionally since 2017, I am
+            well versed in creating applications that delight users. I have
+            experience working with React, Redux and Next.js as well as some
+            experience building APIs in Golang and Node. In my free time I like
+            to hike, exercise, and play D&amp;D.
           </p>
         </section>
 
+        {/* Can add once we have projects to show */}
         {/* <section id="two">
           <h2>Recent Work</h2>
 
@@ -58,12 +61,11 @@ function HomeIndex() {
         <section id="three">
           <h2>Get In Touch</h2>
           <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
+            I&apos;m open to talk to anyone. Whether you have a project you want
+            to talk about, or just want to chat, feel free to reach out.
           </p>
           <div className="row">
-            <div className="8u 12u$(small)">
+            <div className="7u 12u$(small)">
               <form method="post" action="#">
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
@@ -98,7 +100,7 @@ function HomeIndex() {
                 </ul>
               </form>
             </div>
-            <div className="4u 12u$(small)">
+            <div className="5u 12u$(small)">
               <ul className="labeled-icons">
                 <li>
                   <h3 className="icon fa-home">
