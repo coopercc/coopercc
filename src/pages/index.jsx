@@ -25,11 +25,11 @@ function HomeIndex() {
           </header>
           <p>
             With a background in Informatics (focusing in HCI) from the
-            University of Washington and working professionally since 2017, I am
-            well versed in creating applications that delight users. I have
-            experience working with React, Redux and Next.js as well as some
-            experience building APIs in Golang and Node. In my free time I like
-            to hike, exercise, and play D&amp;D.
+            University of Washington and having worked professionally since
+            2017, I am well versed in creating applications that delight users.
+            I have experience working with React, Redux and Next.js as well as
+            some experience building APIs in Golang and Node. In my free time I
+            like to hike, exercise, and play D&amp;D.
           </p>
         </section>
 

@@ -1,4 +1,5 @@
 module.exports = {
+  prefixPaths: '/gatsby-portfolio',
   siteMetadata: {
     title: 'Cooper Cain',
     author: 'Cooper Cain',
@@ -8,4 +9,4 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
   ],
-}
+};
