@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Cooper Cain",
   "dependencies": {
-    "gatsby": "^2.20.12",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-react-helmet": "^3.2.1",
     "gatsby-plugin-sass": "^2.2.1",
     "node-sass": "^4.13.1",
